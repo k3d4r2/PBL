@@ -2,7 +2,7 @@ var quiz = {
     "JS": [
         {
             "id": 1,
-            "question": "Inside which HTML element do we put the JavaScript?",
+            "question": "Hello",
             "options": [
                 {
                     "a": "&lt;script&gt;",
