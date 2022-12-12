@@ -2,77 +2,76 @@ var quiz = {
     "JS": [
         {
             "id": 1,
-            "question": "How do you add javascript in HTML?",
+            "question": "What is the latest version of Python, as of 12-12-2022?",
             "options": [
                 {
-                    "a": "&lt;script&gt;",
-                    "b": "&lt;javascript&gt;",
-                    "c": "&lt;scripting&gt;",
-                    "d": "&lt;js&gt;"
+                    "a": "3.9",
+                    "b": "2.7",
+                    "c": "3.10",
+                    "d": "3.11"
                 }
             ],
-            "answer": "&lt;script&gt;",
+            "answer": "3.10",
             "score": 0,
             "status": ""
         },
         {
             "id": 2,
-            "question": "Where is the correct place to insert a JavaScript?",
+            "question": "What is the previous major Python version?",
             "options": [
                 {
-                    "a": "The &lt;head&gt; section",
-                    "b": "The &lt;body&gt; section",
-                    "c": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct"
+                    "a": "3.x",
+                    "b": "2.x",
+                    "c": "1.x"
                 }
             ],
-            "answer": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
+            "answer": "2.x",
             "score": 0,
             "status": ""
         },
         {
             "id": 3,
-            "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+            "question": "What is a correct syntax to output 'Hello World' in Python?",
             "options": [
                 {
-                    "a": "&ltscript href=&quot;xxx.js&quot;>",
-                    "b": "&lt;script name=&quot;xxx.js&quot;&gt;",
-                    "c": "&lt;script src=&quot;xxx.js&quot;&gt;"
+                    "a": "echo 'Hello World'",
+                    "b": "p('Hello World')",
+                    "c": "print('Hello World')"
                 }
             ],
-            "answer": "&lt;script src=&quot;xxx.js&quot;&gt;",
+            "answer": "print('Hello World')",
             "score": 0,
             "status": ""
         },
         {
             "id": 4,
-            "question": "The external JavaScript file must contain the &lt;script&gt; tag.",
+            "question": "How do you insert COMMENTS in Python code?",
             "options": [
                 {
-                    "a": "True",
-                    "b": "False"
+                    "a": "# This is a comment",
+                    "b": "//This is a comment"
                 }
             ],
-            "answer": "False",
+            "answer": "# This is a comment",
             "score": 0,
             "status": ""
         },
         {
             "id": 5,
-            "question": "How do you write &quot;Hello World&quot; in an alert box?",
+            "question": "How do you create a variable with the numeric value 5?",
             "options": [
                 {
-                    "a": "alertBox(&quot;Hello World&quot;);",
-                    "b": "msg(&quot;Hello World&quot;);",
-                    "c": "alert(&quot;Hello World&quot;);",
-                    "d": "msgBox(&quot;Hello World&quot;);",
+                    "a": "x = 5",
+                    "b": "Both the other answers are correct",
+                    "c": "x = int(5)"
                 }
             ],
-            "answer": "alert(&quot;Hello World&quot;);",
+            "answer": "Both the other answers are correct",
             "score": 0,
             "status": ""
         },
-      
-        
+
+
     ]
 }
 var quizApp = function () {
