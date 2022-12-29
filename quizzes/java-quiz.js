@@ -2,16 +2,16 @@ var quiz = {
     "JS": [
         {
             "id": 1,
-            "question": "What is a correct syntax to output 'Hello World' in Java?",
+            "question": " The number of primitive data types in Java are?",
             "options": [
                 {
-                    "a": "print('Hello World')",
-                    "b": "echo 'Hello World'",
-                    "c": "System.out.println('Hello World')",
-                    "d": "Console.WriteLine('Hello World')"
+                    "a": "6",
+                    "b": "7",
+                    "c": "8",
+                    "d": "9"
                 }
             ],
-            "answer": "System.out.println('Hello World')",
+            "answer": "8",
             "score": 0,
             "status": ""
         },
@@ -65,15 +65,88 @@ var quiz = {
                     "a": "x = 2.8f",
                     "b": "float x = 2.8f",
                     "c": "byte x = 2.8f",
-                    "d": "int x = 2.8f",
+                    "d": "int x = 2.8f"
                 }
             ],
             "answer": "float x = 2.8f",
             "score": 0,
             "status": ""
         },
-
-
+        {
+            "id": 6,
+            "question": "Automatic type conversion is possible in which of the possible cases?",
+            "options": [
+                {
+                    "a": "Byte to int",
+                    "b": "Int to long",
+                    "c": "Long to int",
+                    "d": "Short to int"
+                }
+            ],
+            "answer": "Int to long",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 7,
+            "question": "When an array is passed to a method, what does the method receive?",
+            "options": [
+                {
+                    "a": "The reference of the array",
+                    "b": "A copy of the array",
+                    "c": "Length of the array",
+                    "d": "Copy of first element"
+                }
+            ],
+            "answer": "The reference of the array",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 8,
+            "question": "Select the valid statement to declare and initialize an array.",
+            "options": [
+                {
+                    "a": "int[] A = {}",
+                    "b": "int[] A = {1, 2, 3}",
+                    "c": "int[] A = (1, 2, 3)",
+                    "d": "int[][] A = {1, 2, 3}"
+                }
+            ],
+            "answer": "int[] A = {1, 2, 3}",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 9,
+            "question": "Arrays in java are-",
+            "options": [
+                {
+                    "a": "Object references",
+                    "b": "Objects",
+                    "c": "Primitive data type",
+                    "d": "None"
+                }
+            ],
+            "answer": "Objects",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 10,
+            "question": "When is the object created with new keyword?",
+            "options": [
+                {
+                    "a": "At runtime",
+                    "b": "At compile time",
+                    "c": "Depends on the code",
+                    "d": "None"
+                }
+            ],
+            "answer": "At runtime",
+            "score": 0,
+            "status": ""
+        },
     ]
 }
 var quizApp = function () {

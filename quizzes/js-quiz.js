@@ -64,15 +64,88 @@ var quiz = {
                     "a": "alertBox(&quot;Hello World&quot;);",
                     "b": "msg(&quot;Hello World&quot;);",
                     "c": "alert(&quot;Hello World&quot;);",
-                    "d": "msgBox(&quot;Hello World&quot;);",
+                    "d": "msgBox(&quot;Hello World&quot;);"
                 }
             ],
             "answer": "alert(&quot;Hello World&quot;);",
             "score": 0,
             "status": ""
         },
-
-
+        {
+            "id": 6,
+            "question": "Which of the following is an advantage of using JavaScript?",
+            "options": [
+                {
+                    "a": "Less server interaction",
+                    "b": "Immediate feedback to the visitors",
+                    "c": "Increased interactivity",
+                    "d": "All of the above"
+                }
+            ],
+            "answer": "All of the above",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 7,
+            "question": "Which built-in method adds one or more elements to the end of an array and returns the new length of the array",
+            "options": [
+                {
+                    "a": "last()",
+                    "b": "put()",
+                    "c": "push()",
+                    "d": "None of the above"
+                }
+            ],
+            "answer": "push()",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 8,
+            "question": "Which built-in method sorts the elements of an array?",
+            "options": [
+                {
+                    "a": "changeOrder(order)",
+                    "b": "order()",
+                    "c": "sort()",
+                    "d": "None of the above"
+                }
+            ],
+            "answer": "sort()",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 9,
+            "question": "Which of the following function of Boolean object returns a string containing the source of the Boolean object?",
+            "options": [
+                {
+                    "a": "toSource()",
+                    "b": "valueOf()",
+                    "c": "toString()",
+                    "d": "None of the above"
+                }
+            ],
+            "answer": "toSource()",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 10,
+            "question": "Which of the following function of String object returns the index within the calling String object of the last occurrence of the specified value?",
+            "options": [
+                {
+                    "a": "lastIndexOf()",
+                    "b": "search()",
+                    "c": "substr()",
+                    "d": "indexOf()"
+                }
+            ],
+            "answer": "lastIndexOf()",
+            "score": 0,
+            "status": ""
+        },
     ]
 }
 var quizApp = function () {
