@@ -21,9 +21,9 @@ var quiz = {
             "options": [
                 {
                     "a": "int number;",
-                    "b": "The &lt;body&gt; section",
+                    "b": "float no;",
                     "c": "int $main;",
-                    "d": "int variable_count"
+                    "d": "int variable_count;"
                 }
             ],
             "answer": "int $main;",
@@ -35,13 +35,13 @@ var quiz = {
             "question": "All keywords in C are in",
             "options": [
                 {
-                    "a": "LowerCase letters",
-                    "b": "UpperCase letters",
-                    "c": "CamelCase letters",
+                    "a": "Lowercase letters",
+                    "b": "Uppercase letters",
+                    "c": "Camelcase letters",
                     "d": "None of the mentioned"
                 }
             ],
-            "answer": "LowerCase letters",
+            "answer": "Lowercase letters",
             "score": 0,
             "status": ""
         },
@@ -68,15 +68,88 @@ var quiz = {
                     "a": "immutable",
                     "b": "mutable",
                     "c": "const",
-                    "d": "volatile",
+                    "d": "volatile"
                 }
             ],
             "answer": "const",
             "score": 0,
             "status": ""
         },
-
-
+        {
+            "id": 6,
+            "question": "What is short int in C programming?",
+            "options": [
+                {
+                    "a": "The basic data type of C",
+                    "b": "Qualifier",
+                    "c": "Short is the qualifier and int is the basic data type",
+                    "d": "All of the mentioned"
+                }
+            ],
+            "answer": "Short is the qualifier and int is the basic data type",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 7,
+            "question": "Which of the following declaration is not supported by C language?",
+            "options": [
+                {
+                    "a": "String str",
+                    "b": "char *str",
+                    "c": "float str = 3e2",
+                    "d": "Both A and C"
+                }
+            ],
+            "answer": "String str",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 8,
+            "question": "What is the result of logical or relational expression in C?",
+            "options": [
+                {
+                    "a": "True or False",
+                    "b": "0 or 1",
+                    "c": "0 if an expression is false and any positive number if an expression is true",
+                    "d": "None of the above"
+                }
+            ],
+            "answer": "0 or 1",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 9,
+            "question": "Which of the following typecasting is accepted by C language?",
+            "options": [
+                {
+                    "a": "Widening conversions",
+                    "b": "Narrowing conversions",
+                    "c": "Widening & Narrowing conversions",
+                    "d": "None of the above"
+                }
+            ],
+            "answer": "Widening & Narrowing conversions",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 10,
+            "question": "Where in C the order of precedence of operators do not exist?",
+            "options": [
+                {
+                    "a": "Within conditional statements, if, else",
+                    "b": "Withing while, do-while",
+                    "c": "Within a macro definition",
+                    "d": "None of the above"
+                }
+            ],
+            "answer": "None of the above",
+            "score": 0,
+            "status": ""
+        },
     ]
 }
 var quizApp = function () {

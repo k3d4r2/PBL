@@ -31,15 +31,16 @@ var quiz = {
         },
         {
             "id": 3,
-            "question": "What is a correct syntax to output 'Hello World' in Python?",
+            "question": "What is the maximum length of a Python identifier?",
             "options": [
                 {
-                    "a": "echo 'Hello World'",
-                    "b": "p('Hello World')",
-                    "c": "print('Hello World')"
+                    "a": "32",
+                    "b": "16",
+                    "c": "128",
+                    "d": "No fixed length is specified."
                 }
             ],
-            "answer": "print('Hello World')",
+            "answer": "No fixed length is specified.",
             "score": 0,
             "status": ""
         },
@@ -70,8 +71,80 @@ var quiz = {
             "score": 0,
             "status": ""
         },
-
-
+        {
+            "id": 6,
+            "question": "What will be the output of the following code snippet? print(2**3 + (5 + 6)**(1 + 1))",
+            "options": [
+                {
+                    "a": "129",
+                    "b": "8",
+                    "c": "121",
+                    "d": "None of the above"
+                }
+            ],
+            "answer": "129",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 7,
+            "question": "How is a code block indicated in Python?",
+            "options": [
+                {
+                    "a": "Brackets",
+                    "b": "Indentation",
+                    "c": "Key"
+                }
+            ],
+            "answer": "Indentation",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 8,
+            "question": "Which of the following statements are used in Exception Handling in Python?",
+            "options": [
+                {
+                    "a": "try",
+                    "b": "except",
+                    "c": "finally",
+                    "d": "All of the above"
+                }
+            ],
+            "answer": "All of the above",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 9,
+            "question": "Which of the following types of loops are not supported in Python?",
+            "options": [
+                {
+                    "a": "for",
+                    "b": "while",
+                    "c": "do-while",
+                    "d": "None of the above"
+                }
+            ],
+            "answer": "do-while",
+            "score": 0,
+            "status": ""
+        },
+        {
+            "id": 10,
+            "question": "Which of the following functions converts date to corresponding time in Python?",
+            "options": [
+                {
+                    "a": "strptime()",
+                    "b": "strftime()",
+                    "c": "Both A and B",
+                    "d": "None of the above"
+                }
+            ],
+            "answer": "strptime()",
+            "score": 0,
+            "status": ""
+        },
     ]
 }
 var quizApp = function () {
