@@ -85,7 +85,6 @@ var quizApp = function () {
         this.currentque = cque;
         if (this.currentque < totalque) {
             $("#tque").html(totalque);
-            $("#previous").attr("disabled", false);
             $("#next").attr("disabled", false);
             $("#qid").html(quiz.JS[this.currentque].id + '.');
             $("#question").html(quiz.JS[this.currentque].question);
@@ -101,9 +100,6 @@ var quizApp = function () {
                     );
                 }
             }
-        }
-        if (this.currentque <= 0) {
-            $("#previous").attr("disabled", true);
         }
         if (this.currentque >= totalque) {
             $('#next').attr('disabled', true);
@@ -166,11 +162,4 @@ $('#next').click(function (e) {
         jsq.checkAnswer(selectedopt);
     }
     jsq.changeQuestion(1);
-});
-$('#previous').click(function (e) {
-    e.preventDefault();
-    if (selectedopt) {
-        jsq.checkAnswer(selectedopt);
-    }
-    jsq.changeQuestion(-1);
 });
